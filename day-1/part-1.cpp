@@ -5,7 +5,7 @@
 const int N {1000};
 
 int main() {
-    std::vector<int> v1(1000), v2(1000);
+    std::vector<int> v1(N), v2(N);
     for (int i=0; i<N; ++i)
         std::cin >> v1[i] >> v2[i];
     std::ranges::sort(v1);
